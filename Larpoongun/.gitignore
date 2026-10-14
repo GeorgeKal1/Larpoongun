@@ -1,0 +1,20 @@
+# dependencies & builds
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# secrets: real values live in .env.local (see .env.example)
+.env
+.env*.local
+
+# local database (users, sessions, orders)
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# logs & local tooling
+*.log
+.claude/settings.local.json
